@@ -32,7 +32,8 @@ npm-debug.log
 # Webpack source maps
 *.map
 
-package-lock.json
-
 # Local env file with credentials
 .env
+
+#git-lock
+package-lock.json
