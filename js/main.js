@@ -65,7 +65,6 @@ function validate(){
 
 // Transform Helper function
 function transform(x,y){
-    formBox.style.transition = `transform ${0.3}s ease`;
     formBox.style.transform = `translate(${x}px, ${y}px)`;
 }
 
@@ -100,9 +99,8 @@ function fieldPass(){
     } else {
         // If no more question
         hideQuestion();
-        formBox.className = 'close';
         barProgress.style.width = '100%';
-        
+        formBox.className = 'close';
         
         // Form complete
         formComplete();

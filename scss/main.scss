@@ -41,13 +41,13 @@ h1.end{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease;
 }
 
 #form-box.close{
-    width: 0px;
+    width: 0;
     padding: 0;
     overflow: hidden;
-    transition: 0.8s ease-in-out;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
 }
 
